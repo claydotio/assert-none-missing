@@ -1,0 +1,11 @@
+{
+  "name": "assert-none-missing",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.coffee",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  }
+}
