@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Zolmeister/assert-none-missing/issues"
   },
-  "homepage": "https://github.com/Zolmeister/assert-none-missing"
+  "homepage": "https://github.com/Zolmeister/assert-none-missing",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
