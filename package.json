@@ -1,8 +1,9 @@
 {
   "name": "assert-none-missing",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.coffee",
-  "author": "",
+  "author": "Zolmeister (https://zolmeister.com)",
+  "description": "assert no undefined keys exist in an object",
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.10.0"
