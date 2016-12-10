@@ -6,7 +6,7 @@
   "description": "assert no undefined keys exist in an object",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.0"
+    "lodash": "^4.17.2"
   },
   "devDependencies": {},
   "repository": {
