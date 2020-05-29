@@ -1,6 +1,6 @@
 import * as _ from 'lodash-es'
 
-module.exports = (object) ->
+export default (object) ->
   getDeepUndefinedKeys = (object, prefix = '') ->
     _.reduce object, (missing, val, key) ->
       if val is undefined
