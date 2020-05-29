@@ -1,18 +1,16 @@
-_reduce = require 'lodash/reduce'
-_isPlainObject = require 'lodash/isPlainObject'
-_isEmpty = require 'lodash/isEmpty'
+import * as _ from 'lodash-es'
 
 module.exports = (object) ->
   getDeepUndefinedKeys = (object, prefix = '') ->
-    _reduce object, (missing, val, key) ->
+    _.reduce object, (missing, val, key) ->
       if val is undefined
         missing.concat prefix + key
-      else if _isPlainObject val
+      else if _.isPlainObject val
         missing.concat getDeepUndefinedKeys val, key + '.'
       else
         missing
     , []
 
   missing = getDeepUndefinedKeys(object)
-  unless _isEmpty missing
+  unless _.isEmpty missing
     throw new Error "missing values for: #{missing.join(', ')}"
