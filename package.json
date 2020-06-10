@@ -5,7 +5,6 @@
   "author": "Zolmeister (https://zolmeister.com)",
   "description": "assert no undefined keys exist in an object",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
     "lodash-es": "^4.17.15"
   },
